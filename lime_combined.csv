@@ -1,0 +1,31 @@
+case,feature,weight
+approval,-0.43 < risk_burden <= -0.28,-0.4105060744608776
+approval,previous_defaults <= -0.46,-0.07760241865515106
+approval,-0.35 < credit_utilization <= -0.26,-0.05323415305458608
+approval,0.02 < loan_amount <= 0.87,-0.03439118750139456
+approval,loan_per_age <= -0.78,-0.02780767769568399
+approval,dti <= -0.40,-0.02266420917963862
+approval,-0.29 < savings_to_income <= 0.05,0.021085105708873876
+approval,num_loans <= -0.96,-0.019163149637020687
+approval,-0.58 < emi <= -0.30,0.013781425727955213
+approval,-0.08 < years_with_bank <= 0.92,0.0118481448128799
+denial,risk_burden > -0.01,0.8685607465180849
+denial,credit_utilization > -0.08,0.13766855693085697
+denial,previous_defaults > -0.46,0.08550812996352365
+denial,credit_usage_ratio > -0.08,0.03534464966130324
+denial,loan_amount > 0.87,0.03414575148746585
+denial,years_with_bank <= -0.93,-0.02102216855821156
+denial,age > 0.86,0.015386739329544073
+denial,credit_limit <= -0.85,0.014310329339604877
+denial,-0.30 < emi <= 0.14,0.010368902246161235
+denial,-0.14 < loan_per_age <= 0.52,0.006420978835479904
+borderline,previous_defaults > -0.46,0.09507723423690556
+borderline,loan_per_age <= -0.78,-0.03802735960017347
+borderline,dti <= -0.40,-0.036642651321508325
+borderline,credit_limit <= -0.85,0.03311625798548546
+borderline,-0.28 < risk_burden <= -0.01,-0.03085827103968839
+borderline,-0.93 < years_with_bank <= -0.08,-0.030436011206905873
+borderline,-0.51 < savings_to_income <= -0.29,-0.019202832608757554
+borderline,-0.85 < income <= 0.00,-0.018534169303731876
+borderline,-0.87 < loan_amount <= 0.02,-0.017995286630785208
+borderline,-0.21 < income_to_emi <= -0.09,0.015781148448078923
